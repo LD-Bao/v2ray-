@@ -1,0 +1,24 @@
+搭建WARP解锁奈飞GPT
+在搭建好节点后，在VPS输入下面的第一条代码
+步骤：
+1.语言选择：2 简体中文
+2.版本选择：3 为原生双栈添加 WARP双栈网络接口
+3.工作模式：回车默认全局
+4.账户选择：回城默认免费账户
+5.优先级：回车默认使用VPS初识设置
+
+完成WARP安装
+    
+
+一、https://gitlab.com/fscarmen/warp  更详细用法，请参考他本人的官网
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh [option] [lisence/url/token]
+
+二、bash <(curl -fsSL git.io/warp.sh) d
+       bash <(curl -fsSL git.io/warp.sh) menu
+
+三、一键管理助手脚本
+   wget https://raw.githubusercontent.com/yirenchengfeng1/linux/main/manage_vps.sh
+   bash main/manage_vps
+
+四、奈飞网站：https://www.netflix.com/
+      非自制剧（绝命毒师）：https://www.netflix.com/title/70143836
